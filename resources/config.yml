@@ -1,0 +1,20 @@
+#PocketFactions Plugin Main Configuration
+#Copyright (C) 2015 TheDiamondYT
+#All Rights Reserved
+
+#------------[Faction Preferences]------------#
+MaxFactionNameLength: 10
+MinFactionNameLength: 0
+MaxPlayersPerFaction: 20
+
+#----[Claiming Preferences]----#
+ClaimingEnabled: true
+ModsCanClaim: true
+ModsCanUnclaim: true
+
+#----[Chat Preferences]----#
+FactionChatTag: true
+FactionChatColour: GREEN
+
+#----[Staff Preferences]----#
+AdminBypassEnabled: false

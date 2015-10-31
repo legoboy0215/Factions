@@ -1,0 +1,7 @@
+name: Factions
+author: TheDiamondYT7
+description: A customizable factions plugin for PocketMine-MP.
+version: 1.0.0 
+main: thediamondyt\factions\Factions
+api: [1.12.0] 
+
