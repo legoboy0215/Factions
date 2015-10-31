@@ -15,7 +15,7 @@ class Factions extends PluginBase implements Listener {
 	
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
-	    $this->getServer()->getCommandMap()->register(SubCommandMap::class, new SubCommandMap($this));
+	   $this->getServer()->getCommandMap()->register(SubCommandMap::class, new SubCommandMap($this));
 		
 		$this->setupDatabase();
 	    $this->saveDefaultConfig();
